@@ -10,26 +10,35 @@
   width: 960px;
   background-color: #ffffff;
   display:flex;
+  justify-content: flex-end;
+  align-items: end;
   margin-left: auto;
   margin-right: auto;
+  
+
+
+  
  
 }
-.myname{
-  
-  
- 
-}
+
+
 
 .navbutton { 
+ list-style: none;
  
-  background-color:#ffffff;
-  
-  
+ border-color: #ffffff;
+
+ display: flex;
+ justify-content: flex-end;
+ align-items: end;
+ width: 100%;
 
  
+ 
   
-  
+ 
 }
+
 body {
         background: url(../images/handmadepaper.png)
     
@@ -39,30 +48,36 @@ h1 {
      background-color:  #4aaaa5;
      color: #ffffff;
      padding: 20px;
-     font-size: 25px;
+     font-size: 21px;
      margin-top: 0px;
      margin-bottom: 0px;
+     width: 120px;
+   
+   
      
-     
-     
-     
-
-   }
+     }
 
    
-.button {
+.button-1, .button-2,.button-3{
 
-         background-color: #ffffff;
+        
          color: #777777;
-         border-top-color: #ffffff;
-         border-left-color: #ffffff;
-         border-bottom-color: #ffffff;
+         text-decoration: none;
+         padding: 17px;
+         font-size: 15px;
+         border-right: 1px solid;
          
-      
-         
-       
-       
+        
+        
+ 
         }
+
+  .button-3 {
+    border-right: none;
+         
+       
+  }
+
 
 h2 {
     color: #4aaaa5;
@@ -131,12 +146,8 @@ input[type=submit]{
     width: 600px;
     display: flex;
     flex-flow: wrap;
-  
- 
- 
-  
-
   }
+
   .picture {
     
     position: relative;
