@@ -25,9 +25,7 @@
 
 .navbutton { 
  list-style: none;
- 
  border-color: #ffffff;
-
  display: flex;
  justify-content: flex-end;
  align-items: end;
@@ -63,13 +61,10 @@ h1 {
         
          color: #777777;
          text-decoration: none;
-         padding: 17px;
+         padding: 15px;
          font-size: 15px;
          border-right: 1px solid;
          
-        
-        
- 
         }
 
   .button-3 {
