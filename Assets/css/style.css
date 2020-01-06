@@ -35,18 +35,12 @@ body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.picture {
+.card-title{
+
+    margin-top: 90%;
+    background-color: #4aaaa5;
+    color: #ffffff;
     
-    position: relative;
-    
-   
-} 
-
-
-.label {
-
-  position: absolute;
-  text-align: center;
     
 }
 
